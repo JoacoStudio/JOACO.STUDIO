@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOACO STUDIO — Webs que venden</title>
+    <meta name="description" content="JOACO STUDIO: diseño web minimalista y estratégico para convertir visitas en clientes." />
+    <link rel="icon" type="image/x-icon" href="src/Isotipo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <p class="load-hello"><span id="typed"></span><span class="caret"></span></p>
+      <p class="load-sub">Joaco Studio</p>
+    </div>
+
+    <header class="nav-wrap">
+      <nav class="nav">
+        <a href="#" class="logo"><img src="src/Isologotiposinfondo.png" alt="Joaco Studio"></a>
+        <div class="nav-links">
+          <a href="#trabajos">Trabajos</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#sobre-mi">Soy Joaco</a>
+        </div>
+        <span class="pill"><span class="dot"></span>Disponible</span>
+        <button class="menu-btn" aria-label="Menú"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="hero-kicker reveal">Joaco Studio — Diseño web</p>
+        <h1 class="reveal reveal-d1">Webs que venden.</h1>
+        <div class="hero-visual reveal reveal-d2">
+          <img src="src/Backgroundis.png" alt="Proyecto Miga por Joaco Studio" />
+        </div>
+      </section>
+
+      <section id="trabajos" class="section">
+        <div class="section-head">
+          <h2>Trabajos</h2>
+          <span class="count-label">’24 — ’26</span>
+        </div>
+        <div class="work-list">
+          <a href="#contacto" class="work-item featured">
+            <div class="work-media"><img src="src/Mockup.Miga.png" alt="Miga" /></div>
+            <div class="work-meta"><strong>Miga</strong><span>Interiorismo / E-commerce</span></div>
+          </a>
+          <div class="work-row">
+            <a href="https://www.behance.net/gallery/172903589/Disaccraft-Proyect" target="_blank" rel="noopener" class="work-item">
+              <div class="work-media"><img src="src/DissacraftPr.png" alt="Disacraft" /></div>
+              <div class="work-meta"><strong>Disaccraft</strong><span>Identidad / Web</span></div>
+            </a>
+            <a href="https://www.behance.net/gallery/172978591/Old-es-Cool-Proyect" target="_blank" rel="noopener" class="work-item">
+              <div class="work-media"><img src="src/OldescoolPr.png" alt="Old es cool" /></div>
+              <div class="work-meta"><strong>Old es cool</strong><span>Diseño / Web</span></div>
+            </a>
+            <a href="https://www.behance.net/gallery/171238995/Blaster-Project" target="_blank" rel="noopener" class="work-item">
+              <div class="work-media"><img src="src/BlasterPr.png" alt="Blaster" /></div>
+              <div class="work-meta"><strong>Blaster</strong><span>Dirección de arte / Web</span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="section">
+        <h2>Servicios</h2>
+        <div class="serv-list">
+          <div class="serv"><span>01</span><strong>Diseño web</strong><p>Tu página clara y linda, que se ve bien en el celu.</p></div>
+          <div class="serv"><span>02</span><strong>Desarrollo</strong><p>La construyo para que cargue rápido y no se rompa.</p></div>
+          <div class="serv"><span>03</span><strong>Google + Rendimiento</strong><p>Te encuentran en Google y la página vuela.</p></div>
+          <div class="serv"><span>04</span><strong>CRM</strong><p>Los que te escriben llegan solos a tu WhatsApp.</p></div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section about">
+        <h2>Hola, soy Joaco,<br />desarrollador web.</h2>
+        <p class="about-text">Programo desde los 16 años, momento en el que encontré lo que me gustaba. Disfruto de ver cómo una marca se transforma en su versión web y estoy innovando constantemente, buscando lo distintivo y único. Me gusta que una marca pueda presentar sus objetivos, logros y esencia a través de un sitio web. Esta es mi marca personal y mi objetivo es ayudar a una partecita del mundo.</p>
+        <div class="stats">
+          <div><strong><span class="count" data-target="30" data-prefix="+" data-suffix="">+30</span></strong><span>Proyectos</span></div>
+          <div><strong><span class="count" data-target="5" data-prefix="" data-suffix="">5</span></strong><span>Años</span></div>
+          <div><strong><span class="count" data-target="100" data-prefix="" data-suffix="%">100%</span></strong><span>Compromiso</span></div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <h2>Hablemos.</h2>
+        <a href="mailto:studio.joaco.dev@gmail.com" class="mail">studio.joaco.dev@gmail.com</a>
+        <div class="social"><a href="https://www.instagram.com/studio.joaco/" target="_blank" rel="noopener">Instagram</a><a href="https://github.com/JoacoStudio" target="_blank" rel="noopener">GitHub</a></div>
+      </section>
+
+      <section id="cotizar" class="section quote">
+        <p class="about-kicker">Cotización</p>
+        <h2>Pedí tu cotización.</h2>
+        <p class="quote-sub">Completá y lo recibo por WhatsApp. Te respondo en el día y coordinamos una llamada de 15 min sin cargo.</p>
+        <p class="quote-hours">Lun a Vie · 10 a 18 h (ARG)</p>
+        <form id="quote-form" class="quote-form">
+          <label>Tu nombre
+            <input type="text" name="nombre" placeholder="¿Cómo te llamás?" required />
+          </label>
+          <label>¿Qué necesitás?
+            <select name="tipo" required>
+              <option value="" disabled selected>Elegí una opción</option>
+              <option>Landing page</option>
+              <option>Web completa</option>
+              <option>Tienda online</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label>Presupuesto estimado
+            <select name="presupuesto" required>
+              <option value="" disabled selected>Elegí un rango</option>
+              <option>Hasta USD 300</option>
+              <option>USD 300 – 700</option>
+              <option>USD 700+</option>
+              <option>A convenir</option>
+            </select>
+          </label>
+          <label>¿Cuándo te llamo?
+            <select name="llamada">
+              <option value="" disabled selected>Si querés, elegí un momento</option>
+              <option>Mañana</option>
+              <option>Tarde</option>
+              <option>Noche</option>
+            </select>
+          </label>
+          <label class="full">Contame tu idea
+            <textarea name="detalle" rows="4" placeholder="¿Qué vendés? ¿Qué te gustaría lograr?"></textarea>
+          </label>
+          <button type="submit" class="quote-btn">Enviar por WhatsApp</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Joaco Studio</span>
+      <a href="#">Volver arriba ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
