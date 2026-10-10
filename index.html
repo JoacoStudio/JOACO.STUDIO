@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JOACO STUDIO — Webs que venden</title>
     <meta name="description" content="JOACO STUDIO: diseño web minimalista y estratégico para convertir visitas en clientes." />
-    <link rel="icon" type="image/x-icon" href="src/Isotipo.png" />
+    <link rel="icon" type="image/png" href="src/Isotipo.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,7 +16,7 @@
 
     <header class="nav-wrap">
       <nav class="nav">
-        <a href="#" class="logo"><img src="src/Isologotiposinfondo.png" alt="Joaco Studio"></a>
+        <a href="#" class="logo"><img src="src/Isologotiposinfondo.png" alt="Joaco Studio" /></a>
         <div class="nav-links">
           <a href="#trabajos">Trabajos</a>
           <a href="#servicios">Servicios</a>
@@ -32,7 +32,7 @@
         <p class="hero-kicker reveal">Joaco Studio — Diseño web</p>
         <h1 class="reveal reveal-d1">Webs que venden.</h1>
         <div class="hero-visual reveal reveal-d2">
-          <img src="src/Backgroundis.png" alt="Proyecto Miga por Joaco Studio" />
+          <img src="src/Backgroundis.png" alt="Trabajo de Joaco Studio" />
         </div>
       </section>
 
@@ -49,7 +49,7 @@
           <div class="work-row">
             <a href="https://www.behance.net/gallery/172903589/Disaccraft-Proyect" target="_blank" rel="noopener" class="work-item">
               <div class="work-media"><img src="src/DissacraftPr.png" alt="Disacraft" /></div>
-              <div class="work-meta"><strong>Disaccraft</strong><span>Identidad / Web</span></div>
+              <div class="work-meta"><strong>Disacraft</strong><span>Identidad / Web</span></div>
             </a>
             <a href="https://www.behance.net/gallery/172978591/Old-es-Cool-Proyect" target="_blank" rel="noopener" class="work-item">
               <div class="work-media"><img src="src/OldescoolPr.png" alt="Old es cool" /></div>
@@ -83,20 +83,13 @@
         </div>
       </section>
 
-      <section id="contacto" class="section contact">
-        <h2>Hablemos.</h2>
-        <a href="mailto:studio.joaco.dev@gmail.com" class="mail">studio.joaco.dev@gmail.com</a>
-        <div class="social"><a href="https://www.instagram.com/studio.joaco/" target="_blank" rel="noopener">Instagram</a><a href="https://github.com/JoacoStudio" target="_blank" rel="noopener">GitHub</a></div>
-      </section>
-
       <section id="cotizar" class="section quote">
-        <p class="about-kicker">Cotización</p>
         <h2>Pedí tu cotización.</h2>
         <p class="quote-sub">Completá y lo recibo por WhatsApp. Te respondo en el día y coordinamos una llamada de 15 min sin cargo.</p>
         <p class="quote-hours">Lun a Vie · 10 a 18 h (ARG)</p>
         <form id="quote-form" class="quote-form">
           <label>Tu nombre
-            <input type="text" name="nombre" placeholder="¿Cómo te llamás?" required />
+            <input type="text" name="nombre" placeholder="Ej: María, de Tienda Nube…" required />
           </label>
           <label>¿Qué necesitás?
             <select name="tipo" required>
@@ -125,16 +118,28 @@
             </select>
           </label>
           <label class="full">Contame tu idea
-            <textarea name="detalle" rows="4" placeholder="¿Qué vendés? ¿Qué te gustaría lograr?"></textarea>
+            <textarea name="detalle" rows="4" placeholder="Ej: vendo ropa, quiero mostrar mi catálogo y recibir pedidos por WhatsApp…"></textarea>
           </label>
           <button type="submit" class="quote-btn">Enviar por WhatsApp</button>
         </form>
       </section>
+
+      <section id="contacto" class="section contact">
+        <h2>Hablemos.</h2>
+        <a href="mailto:studio.joaco.dev@gmail.com" class="mail">studio.joaco.dev@gmail.com</a>
+        <div class="social">
+          <a href="https://www.instagram.com/studio.joaco/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://github.com/JoacoStudio" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <span>© 2026 Joaco Studio</span>
-      <a href="#">Volver arriba ↑</a>
+    <footer class="site-footer">
+      <img src="src/Isologotiposinfondo.png" alt="Joaco Studio" class="footer-logo" />
+      <div class="footer-row">
+        <span>© 2026 Joaco Studio</span>
+        <a href="#">Volver arriba ↑</a>
+      </div>
     </footer>
     <script src="script.js"></script>
   </body>

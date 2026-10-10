@@ -61,7 +61,7 @@ const io = new IntersectionObserver((entries) => {
 counters.forEach((c) => io.observe(c));
 
 // Entrada — reveal genérico
-const revealEls = document.querySelectorAll('.section, .work-item, .serv, .about, .contact');
+const revealEls = document.querySelectorAll('.section, .work-item, .serv, .quote');
 
 revealEls.forEach((el) => {
   if (!el.classList.contains('reveal')) el.classList.add('reveal');
