@@ -371,6 +371,18 @@ main {
   font-size: 1.15rem;
 }
 
+.cert-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: .95rem;
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+}
+
+.cert-link:hover {
+  color: var(--accent);
+}
+
 /* QUOTE */
 .quote {
   background: var(--card);
