@@ -89,7 +89,7 @@ document.getElementById('quote-form')?.addEventListener('submit', (e) => {
     'Necesito: ' + (f.get('tipo') || ''),
     'Presupuesto: ' + (f.get('presupuesto') || ''),
   ];
-  if (f.get('llamada')) lines.push('Llamame en el horario de: ' + f.get('llamada'));
+  if (f.get('llamada')) lines.push('Llámame en el horario de: ' + f.get('llamada'));
   if (f.get('detalle')) lines.push('Detalle: ' + f.get('detalle'));
   window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(lines.join('\n')), '_blank');
 });
