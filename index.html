@@ -22,6 +22,7 @@
         <a href="#" class="logo"><img src="src/Isologotiposinfondo.png" alt="Joaco Studio" /></a>
         <div class="nav-links">
           <a href="#trabajos">Trabajos</a>
+          <a href="#galeria" data-gallery-open aria-haspopup="dialog">Galería</a>
           <a href="#servicios">Servicios</a>
           <a href="#sobre-mi">Soy Joaco</a>
         </div>
@@ -62,6 +63,7 @@
               <div class="work-meta"><strong>Blaster</strong><span>Dirección de arte / Web</span></div>
             </a>
           </div>
+          <a href="#galeria" class="gallery-cta" data-gallery-open aria-haspopup="dialog">Ver todos los proyectos <span>→</span></a>
         </div>
       </section>
 
@@ -144,6 +146,58 @@
         <a href="#">Volver arriba ↑</a>
       </div>
     </footer>
+    <div id="gallery" class="gallery" role="dialog" aria-modal="true" aria-label="Galería de proyectos" aria-hidden="true" inert>
+      <div class="gallery-scroll" data-gallery-scroll>
+        <div class="gallery-track">
+          <div class="gallery-stage" data-gallery-stage>
+            <div class="gallery-head">
+              <div class="gallery-heading">
+                <p class="gallery-kicker"><span class="gallery-dot"></span>Sala de proyectos</p>
+                <h2 class="gallery-title">Galería</h2>
+              </div>
+              <div class="gallery-meta">
+                <span class="gallery-count"><b>05</b> proyectos</span>
+                <button class="gallery-close" type="button" data-gallery-close aria-label="Cerrar galería">
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+            <div class="gallery-grid" data-gallery-grid>
+              <a class="g-card g-card--cq" href="https://campagnaro-quercia.vercel.app/" target="_blank" rel="noopener" data-g-card>
+                <div class="g-media"><img src="src/MockupCQ.jpg" alt="Campagnaro Quercia — arquitectura e interiorismo" /></div>
+                <div class="g-info"><div><strong>Campagnaro Quercia</strong><span>Arquitectura / Interiorismo</span></div><i>↗</i></div>
+              </a>
+              <a class="g-card g-card--miga" href="https://migaestudio-redesign.vercel.app/" target="_blank" rel="noopener" data-g-card>
+                <div class="g-media"><img src="src/miga-hero.jpg" alt="Miga Studio — interiorismo y e-commerce" /></div>
+                <div class="g-info"><div><strong>Miga</strong><span>Interiorismo / E-commerce</span></div><i>↗</i></div>
+              </a>
+              <a class="g-card g-card--disacraft" href="https://www.behance.net/gallery/172903589/Disaccraft-Proyect" target="_blank" rel="noopener" data-g-card>
+                <div class="g-media"><img src="src/DissacraftPr.png" alt="Disacraft" /></div>
+                <div class="g-info"><div><strong>Disacraft</strong><span>Identidad / Web</span></div><i>↗</i></div>
+              </a>
+              <a class="g-card g-card--old" href="https://www.behance.net/gallery/172978591/Old-es-Cool-Proyect" target="_blank" rel="noopener" data-g-card>
+                <div class="g-media"><img src="src/OldescoolPr.png" alt="Old es cool" /></div>
+                <div class="g-info"><div><strong>Old es cool</strong><span>Diseño / Web</span></div><i>↗</i></div>
+              </a>
+              <a class="g-card g-card--blaster" href="https://www.behance.net/gallery/171238995/Blaster-Project" target="_blank" rel="noopener" data-g-card>
+                <div class="g-media"><img src="src/BlasterPr.png" alt="Blaster" /></div>
+                <div class="g-info"><div><strong>Blaster</strong><span>Dirección de arte / Web</span></div><i>↗</i></div>
+              </a>
+            </div>
+            <p class="gallery-hint"><span>Scrolleá para entrar</span><b>↓</b></p>
+          </div>
+        </div>
+        <div class="gallery-foot">
+          <p>¿Te gustó lo que viste?</p>
+          <div class="gallery-foot-actions">
+            <a href="#cotizar" class="gallery-foot-btn" data-gallery-close>Cotizá tu proyecto →</a>
+            <button type="button" class="gallery-foot-back" data-gallery-close>Volver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
