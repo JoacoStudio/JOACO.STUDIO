@@ -732,49 +732,11 @@ body.gallery-open {
   transform: none;
 }
 
-.gallery-kicker {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: .72rem;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, .55);
-}
-
-.gallery-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  animation: pulse 2s infinite;
-}
-
 .gallery-title {
-  margin-top: 8px;
   font-size: clamp(2.2rem, 6vw, 4.6rem);
   font-weight: 600;
   line-height: .9;
   letter-spacing: -.04em;
-}
-
-.gallery-meta {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.gallery-count {
-  font-size: .8rem;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, .5);
-}
-
-.gallery-count b {
-  margin-right: 4px;
-  color: #fff;
-  font-weight: 600;
 }
 
 .gallery-close {
@@ -958,61 +920,6 @@ body.gallery-open {
   50% { transform: translateY(4px); }
 }
 
-.gallery-foot {
-  min-height: 70dvh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 22px;
-  padding: 60px 20px 100px;
-  text-align: center;
-}
-
-.gallery-foot p {
-  font-size: clamp(1.4rem, 3.4vw, 2.2rem);
-  font-weight: 600;
-  letter-spacing: -.03em;
-}
-
-.gallery-foot-actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.gallery-foot-btn {
-  background: var(--accent);
-  color: #fff;
-  padding: 14px 26px;
-  border-radius: 100px;
-  font-weight: 600;
-  transition: background .3s, color .3s;
-}
-
-.gallery-foot-btn:hover {
-  background: #fff;
-  color: var(--ink);
-}
-
-.gallery-foot-back {
-  background: transparent;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, .3);
-  border-radius: 100px;
-  padding: 13px 24px;
-  font-family: var(--font);
-  font-size: .95rem;
-  cursor: pointer;
-  transition: border-color .3s;
-}
-
-.gallery-foot-back:hover {
-  border-color: #fff;
-}
-
 /* GALLERY — motion preferences */
 .gallery.is-static .gallery-track {
   height: 100dvh;
@@ -1051,10 +958,6 @@ body.gallery-open {
 
   .gallery-title {
     font-size: clamp(2rem, 10vw, 3rem);
-  }
-
-  .gallery-count {
-    display: none;
   }
 
   .gallery-close {
@@ -1103,9 +1006,5 @@ body.gallery-open {
 
   .gallery-hint {
     font-size: .66rem;
-  }
-
-  .gallery-foot {
-    min-height: 60dvh;
   }
 }
